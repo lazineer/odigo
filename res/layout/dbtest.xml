@@ -1,0 +1,57 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+<linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <textview
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" >
+
+        <edittext
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestfocus>
+            </requestfocus>
+        </edittext>
+
+        <linearlayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <edittext
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+
+                <button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="입력" >
+                </button>
+
+                <button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="찾기" >
+
+                    <listview
+                        android:id="@+id/listView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </listview>
+                </button>
+            </edittext>
+        </linearlayout>
+    </textview>
+
+</linearlayout>

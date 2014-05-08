@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Retrieved via Resources.getDrawable() and friends. -->
+    <drawable name="black_color">#ff000000</drawable>
+    <drawable name="selected_list_color">#ff32A800</drawable>
+    <drawable name="default_list_color">#ffffffff</drawable>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#88808080</color>
+    <color name="black_shadow">#CC000000</color>
+    <color name="white_shadow">#CCFFFFFF</color>
+    <color name="text_hint_color">#FF5C5D60</color>
+    <color name="text_color_black">#CA000000</color>
+    <color name="text_color_white">#FFF3F3F3</color>
+</resources>

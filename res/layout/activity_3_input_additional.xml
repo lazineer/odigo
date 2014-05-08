@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="921" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="112.5"
+        android:background="@drawable/activity_3_input_addtional_title_bar"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="27"
+        android:background="#665a26"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#665a26"
+            android:gravity="center"
+            android:text="@string/default_address"
+            android:textColor="#fbfcfd"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="52.5"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="289.5"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/activity_3_input_addtional_pic_imgbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="75"
+            android:background="@drawable/activity_3_input_addtional_pic_imgbtn"
+            android:orientation="vertical" >
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="66"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="171"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/activity_3_input_addtional_editview_desc"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="75"
+            android:background="@drawable/activity_3_input_addtional_editview_desc"
+            android:hint="    Ex) 맛있어요!"
+            android:orientation="vertical" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70.5"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/activity_3_input_addtional_completed_imgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="132"
+        android:background="@drawable/activity_3_input_addtional_completed_imgbtn"
+        android:orientation="vertical" >
+    </ImageButton>
+
+</LinearLayout>

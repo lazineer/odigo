@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:layout_margin="0dp"
+    android:background="#665a26"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15.4"
+        android:background="@drawable/activity_3_input_addtional_title_bar"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:background="#665a26"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="기본값 | 서울시 > 강남구 > 강남8번출구 > 323m "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="31.4"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/activity_3_input_addtional_edittext_pic"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="75"
+            android:background="@drawable/activity_3_input_addtional_pic_imgbtn"
+            android:orientation="vertical" >
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="19.2"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/activity_3_input_addtional_edittext_desc"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="75"
+            android:background="@drawable/activity_3_input_addtional_editview_desc"
+            android:hint="    Ex) 정말 쌉니다 줄서서        먹어요! "
+            android:orientation="vertical" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12.5"
+            android:background="#ffce00"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:background="#ffce00"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/activity_3_input_addtional_btn_completed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20.4"
+        android:background="@drawable/activity_3_input_addtional_completed_imgbtn"
+        android:orientation="vertical" >
+    </ImageButton>
+
+</LinearLayout>

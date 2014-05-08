@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackGroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="74.4" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="10.5"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/activity_3_input_top_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#665a26"
+            android:gravity="center"
+            android:text="@string/default_address"
+            android:textColor="#fbfcfd"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="45.2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/activity_3_input_text_servicename"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="9dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="#5f3813"
+                android:orientation="horizontal"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    style="@style/BackGroundColor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText1_menu_name"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                    android:background="@drawable/activity_3_input_text_background"
+                    android:hint="예) 짜장면"
+                    android:ems="10"
+                    
+                    android:inputType="text" >
+
+                    <requestFocus />
+                </EditText>
+
+                <LinearLayout
+                    style="@style/BackGroundColor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="70"
+                    android:background="@drawable/activity_3_input_text_price"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffce00" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="15"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="#ffce00"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    style="@style/BackGroundColor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText2_price"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                    android:background="@drawable/activity_3_input_text_background"
+                    android:ems="10"
+                    android:hint="예) 2000"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:background="#ffce00"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                    android:background="@drawable/activity_3_input_text_shopname"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fbfcfd" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/BackGroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText3_shop_name"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                    android:background="@drawable/activity_3_input_text_background"
+                    android:ems="10"
+                    android:hint="예) 길림성"
+                    android:inputType="text" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:background="#ffce00"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                    android:background="@drawable/activity_3_input_text_phone"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fbfcfd" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/BackGroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:weightSum="230" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText4_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="190"
+                  	android:background="@drawable/activity_3_input_text_background"
+                    android:ems="10"
+                    android:hint="예) 02-123-1234"
+                    android:inputType="phone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/BackGroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15.1"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageButton
+            android:id="@+id/imageButton2_additional_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="49.95"
+            android:padding="0dp"
+            android:src="@drawable/activity_3_input_button_addtional" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="#686868"
+            android:scaleType="fitXY" >
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/imageButton3_page2_input_sumit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="49.95"
+            android:padding="0dp"
+            android:src="@drawable/activity_3_input_button_complete" />
+    </LinearLayout>
+
+</LinearLayout>

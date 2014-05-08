@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.NoShadow" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+    </style>
+
+    <style name="TextShadow">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="BackGroundColor">
+        <item name="android:background">#ffce00</item>
+    </style>
+
+    <style name="BackGroundColor2">
+        <item name="android:background">#333333</item>
+    </style>
+
+    <style name="Dialog">
+        <item name="android:background">#333333</item>
+    </style>
+
+</resources>

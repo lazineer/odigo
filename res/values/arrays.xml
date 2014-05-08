@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="kind"> 
+        <item>점심메뉴: 짜장면, 짬뽕등</item> 
+        <item>후식메뉴: 음료수, 1+1등</item> 
+        <item>엔터메뉴: 피시방, 당구장등</item> 
+        <item>야간메뉴: 모텔, 찜질방등</item> 
+        <item>기본메뉴: 시간대에 자동맞춤</item> 
+    </string-array>
+</resources>
